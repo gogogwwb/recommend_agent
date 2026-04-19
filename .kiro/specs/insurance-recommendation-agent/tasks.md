@@ -88,7 +88,7 @@
     - 实现get_checkpointer工厂方法
     - _Requirements: 会话状态管理_
   
-  - [ ] 4.2 实现StoreManager
+  - [x] 4.2 实现StoreManager
     - 创建utils/store_manager.py
     - 使用PostgresStore初始化Store（from_conn_string）
     - 实现put_user_profile方法（存储用户画像到namespace=("users", user_id)）
@@ -97,9 +97,12 @@
     - 实现put_session_metadata方法（存储会话元数据）
     - _Requirements: Store API集成_
   
-  - [ ] 4.3 配置Store数据库表
+  - [x] 4.3 配置Store数据库表
     - 运行store.setup()创建Store所需表结构
     - 验证Store表与现有数据库兼容
+    - 创建setup_store.py脚本用于Store表初始化和验证
+    - 编写test_store_setup.py单元测试验证Store设置逻辑
+    - 更新docs/database_setup.md文档添加Store表说明
     - _Requirements: Store API集成_
   
   - [ ]* 4.4 编写Store API属性测试

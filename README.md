@@ -59,6 +59,9 @@ cp .env.example .env
 # 运行数据库迁移
 alembic upgrade head
 
+# 设置Store API表（用于跨会话用户画像持久化）
+python scripts/setup_store.py --test
+
 # 加载种子数据
 python scripts/seed_data.py
 ```

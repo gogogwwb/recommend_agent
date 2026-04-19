@@ -479,8 +479,110 @@ If queries are slow:
 3. Monitor query performance with `EXPLAIN ANALYZE`
 4. Consider adding additional indexes for frequently queried columns
 
+## LangGraph Store API Tables
+
+The system uses LangGraph's Store API for cross-session user profile persistence. The Store API creates its own tables separate from the application schema.
+
+### Store Table
+
+**Table Name:** `store`
+
+**Purpose:** Cross-session persistence of user profiles and key slots using LangGraph's PostgresStore.
+
+**Columns:**
+- `namespace` (TEXT[]): Namespace tuple for organizing data (e.g., `["users", "user_123"]`)
+- `key` (TEXT): Key within the namespace (e.g., `"profile"`)
+- `value` (JSONB): Stored data as JSON
+- `created_at` (TIMESTAMP): Creation timestamp
+- `updated_at` (TIMESTAMP): Last update timestamp
+
+**Namespace Structure:**
+- User profiles: `namespace=("users", user_id)`, `key="profile"`
+- Session metadata: `namespace=("sessions", session_id)`, `key="metadata"`
+
+**Setup:**
+
+The Store tables are created automatically by the `setup_store.py` script:
+
+```bash
+# Setup Store tables
+uv run python scripts/setup_store.py
+
+# Verify Store tables only (without creating)
+uv run python scripts/setup_store.py --verify-only
+
+# Setup and test Store operations
+uv run python scripts/setup_store.py --test
+```
+
+**Compatibility:**
+
+The Store table (`store`) does not conflict with existing application tables:
+- Uses separate table name
+- Uses namespace-based isolation
+- Provides key-value interface for cross-session data
+- Complements (not replaces) the existing `user_profiles` table
+
+**Usage Example:**
+
+```python
+from utils.store_manager import get_store
+
+# Get store instance
+store = get_store()
+
+# Store user profile
+store.put(
+    namespace=("users", "user_123"),
+    key="profile",
+    value={
+        "age": 30,
+        "income_range": "medium_high",
+        "risk_preference": "balanced"
+    }
+)
+
+# Retrieve user profile
+item = store.get(namespace=("users", "user_123"), key="profile")
+if item:
+    profile = item.value
+```
+
+## LangGraph Checkpointer Tables
+
+The system uses LangGraph's PostgresSaver for session state persistence. The Checkpointer creates its own tables for managing conversation state.
+
+### Checkpointer Tables
+
+**Tables Created:**
+- `checkpoint_writes`
+- `checkpoints`
+- `checkpoints_blobs`
+
+**Purpose:** Session state persistence and recovery, time-travel debugging support.
+
+**Setup:**
+
+The Checkpointer tables are created automatically when initializing the checkpointer:
+
+```python
+from utils.checkpointer import get_checkpointer
+
+# Get checkpointer (auto-setup enabled by default)
+checkpointer = get_checkpointer()
+```
+
+Or manually:
+
+```bash
+# Run the checkpointer setup
+uv run python -c "from utils.checkpointer import get_checkpointer; get_checkpointer()"
+```
+
 ## References
 
 - [PostgreSQL Documentation](https://www.postgresql.org/docs/)
 - [Alembic Documentation](https://alembic.sqlalchemy.org/)
 - [SQLAlchemy Documentation](https://docs.sqlalchemy.org/)
+- [LangGraph Store API Documentation](https://langchain-ai.github.io/langgraph/reference/store/)
+- [LangGraph Checkpointer Documentation](https://langchain-ai.github.io/langgraph/reference/checkpoints/)

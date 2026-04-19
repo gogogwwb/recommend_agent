@@ -20,6 +20,16 @@ from utils.checkpointer import (
     reset_checkpointer,
 )
 
+from utils.store_manager import (
+    StoreManager,
+    StoreError,
+    StoreNotInitializedError,
+    StoreSetupError,
+    get_store_manager,
+    get_store,
+    reset_store_manager,
+)
+
 __all__ = [
     # FAISS Vector Index
     "FAISSIndexManager",
@@ -35,6 +45,14 @@ __all__ = [
     "get_checkpointer_manager",
     "get_checkpointer",
     "reset_checkpointer",
+    # Store API Manager
+    "StoreManager",
+    "StoreError",
+    "StoreNotInitializedError",
+    "StoreSetupError",
+    "get_store_manager",
+    "get_store",
+    "reset_store_manager",
     # Other utilities (to be implemented)
     "ErrorHandler",
     "PerformanceMonitor",
