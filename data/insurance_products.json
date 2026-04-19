@@ -1,0 +1,2867 @@
+{
+  "generated_at": "2026-04-19T16:15:10.952117",
+  "total_count": 50,
+  "by_type": {
+    "critical_illness": 13,
+    "medical": 12,
+    "accident": 12,
+    "life": 13
+  },
+  "products": [
+    {
+      "product_id": "CI-001",
+      "product_name": "康健一生重大疾病保险",
+      "product_type": "critical_illness",
+      "provider": "平安保险",
+      "coverage_scope": [
+        "重大疾病",
+        "轻症",
+        "中症",
+        "身故",
+        "豁免保费"
+      ],
+      "coverage_amount_min": 50000,
+      "coverage_amount_max": 1500000,
+      "exclusions": [
+        "既往症",
+        "等待期内确诊",
+        "故意自伤",
+        "酒驾",
+        "吸毒"
+      ],
+      "premium_min": 3000,
+      "premium_max": 15000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "终身",
+        "至70岁",
+        "至80岁"
+      ],
+      "age_min": 0,
+      "age_max": 60,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "重疾保障",
+        "轻症保障",
+        "中症保障",
+        "保费豁免"
+      ],
+      "advantages": [
+        "保障全面",
+        "理赔便捷"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "关注健康保障的人群"
+      ],
+      "claim_process": "确诊即赔",
+      "waiting_period_days": 90,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": true
+    },
+    {
+      "product_id": "CI-002",
+      "product_name": "守护健康重疾险",
+      "product_type": "critical_illness",
+      "provider": "中国人寿",
+      "coverage_scope": [
+        "重大疾病",
+        "轻症",
+        "中症",
+        "身故",
+        "豁免保费"
+      ],
+      "coverage_amount_min": 50000,
+      "coverage_amount_max": 1500000,
+      "exclusions": [
+        "既往症",
+        "等待期内确诊",
+        "故意自伤",
+        "酒驾",
+        "吸毒"
+      ],
+      "premium_min": 2500,
+      "premium_max": 12000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "终身",
+        "至70岁",
+        "至80岁"
+      ],
+      "age_min": 18,
+      "age_max": 55,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "重疾保障",
+        "轻症保障",
+        "中症保障",
+        "保费豁免"
+      ],
+      "advantages": [
+        "保障全面",
+        "理赔便捷"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "关注健康保障的人群"
+      ],
+      "claim_process": "确诊即赔",
+      "waiting_period_days": 90,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "CI-003",
+      "product_name": "无忧人生重大疾病保险",
+      "product_type": "critical_illness",
+      "provider": "太平洋保险",
+      "coverage_scope": [
+        "重大疾病",
+        "轻症",
+        "中症",
+        "身故",
+        "豁免保费"
+      ],
+      "coverage_amount_min": 50000,
+      "coverage_amount_max": 1500000,
+      "exclusions": [
+        "既往症",
+        "等待期内确诊",
+        "故意自伤",
+        "酒驾",
+        "吸毒"
+      ],
+      "premium_min": 4000,
+      "premium_max": 18000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "终身",
+        "至70岁",
+        "至80岁"
+      ],
+      "age_min": 0,
+      "age_max": 65,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "重疾保障",
+        "轻症保障",
+        "中症保障",
+        "保费豁免"
+      ],
+      "advantages": [
+        "保障全面",
+        "理赔便捷"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "关注健康保障的人群"
+      ],
+      "claim_process": "确诊即赔",
+      "waiting_period_days": 90,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": true
+    },
+    {
+      "product_id": "CI-004",
+      "product_name": "健康守护重疾险",
+      "product_type": "critical_illness",
+      "provider": "新华保险",
+      "coverage_scope": [
+        "重大疾病",
+        "轻症",
+        "中症",
+        "身故",
+        "豁免保费"
+      ],
+      "coverage_amount_min": 50000,
+      "coverage_amount_max": 1500000,
+      "exclusions": [
+        "既往症",
+        "等待期内确诊",
+        "故意自伤",
+        "酒驾",
+        "吸毒"
+      ],
+      "premium_min": 2800,
+      "premium_max": 10000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "终身",
+        "至70岁",
+        "至80岁"
+      ],
+      "age_min": 18,
+      "age_max": 50,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "重疾保障",
+        "轻症保障",
+        "中症保障",
+        "保费豁免"
+      ],
+      "advantages": [
+        "保障全面",
+        "理赔便捷"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "关注健康保障的人群"
+      ],
+      "claim_process": "确诊即赔",
+      "waiting_period_days": 90,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "CI-005",
+      "product_name": "安心保重大疾病保险",
+      "product_type": "critical_illness",
+      "provider": "泰康保险",
+      "coverage_scope": [
+        "重大疾病",
+        "轻症",
+        "中症",
+        "身故",
+        "豁免保费"
+      ],
+      "coverage_amount_min": 50000,
+      "coverage_amount_max": 1500000,
+      "exclusions": [
+        "既往症",
+        "等待期内确诊",
+        "故意自伤",
+        "酒驾",
+        "吸毒"
+      ],
+      "premium_min": 2000,
+      "premium_max": 8000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "终身",
+        "至70岁",
+        "至80岁"
+      ],
+      "age_min": 0,
+      "age_max": 60,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "重疾保障",
+        "轻症保障",
+        "中症保障",
+        "保费豁免"
+      ],
+      "advantages": [
+        "保障全面",
+        "理赔便捷"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "关注健康保障的人群"
+      ],
+      "claim_process": "确诊即赔",
+      "waiting_period_days": 90,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "CI-006",
+      "product_name": "金盾重疾保障计划",
+      "product_type": "critical_illness",
+      "provider": "人保寿险",
+      "coverage_scope": [
+        "重大疾病",
+        "轻症",
+        "中症",
+        "身故",
+        "豁免保费"
+      ],
+      "coverage_amount_min": 50000,
+      "coverage_amount_max": 1500000,
+      "exclusions": [
+        "既往症",
+        "等待期内确诊",
+        "故意自伤",
+        "酒驾",
+        "吸毒"
+      ],
+      "premium_min": 3500,
+      "premium_max": 20000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "终身",
+        "至70岁",
+        "至80岁"
+      ],
+      "age_min": 18,
+      "age_max": 55,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "重疾保障",
+        "轻症保障",
+        "中症保障",
+        "保费豁免"
+      ],
+      "advantages": [
+        "保障全面",
+        "理赔便捷"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "关注健康保障的人群"
+      ],
+      "claim_process": "确诊即赔",
+      "waiting_period_days": 90,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "CI-007",
+      "product_name": "康瑞重大疾病保险",
+      "product_type": "critical_illness",
+      "provider": "太平人寿",
+      "coverage_scope": [
+        "重大疾病",
+        "轻症",
+        "中症",
+        "身故",
+        "豁免保费"
+      ],
+      "coverage_amount_min": 50000,
+      "coverage_amount_max": 1500000,
+      "exclusions": [
+        "既往症",
+        "等待期内确诊",
+        "故意自伤",
+        "酒驾",
+        "吸毒"
+      ],
+      "premium_min": 3200,
+      "premium_max": 14000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "终身",
+        "至70岁",
+        "至80岁"
+      ],
+      "age_min": 0,
+      "age_max": 65,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "重疾保障",
+        "轻症保障",
+        "中症保障",
+        "保费豁免"
+      ],
+      "advantages": [
+        "保障全面",
+        "理赔便捷"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "关注健康保障的人群"
+      ],
+      "claim_process": "确诊即赔",
+      "waiting_period_days": 90,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "CI-008",
+      "product_name": "爱健康重疾险",
+      "product_type": "critical_illness",
+      "provider": "阳光保险",
+      "coverage_scope": [
+        "重大疾病",
+        "轻症",
+        "中症",
+        "身故",
+        "豁免保费"
+      ],
+      "coverage_amount_min": 50000,
+      "coverage_amount_max": 1500000,
+      "exclusions": [
+        "既往症",
+        "等待期内确诊",
+        "故意自伤",
+        "酒驾",
+        "吸毒"
+      ],
+      "premium_min": 1800,
+      "premium_max": 7000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "终身",
+        "至70岁",
+        "至80岁"
+      ],
+      "age_min": 18,
+      "age_max": 50,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "重疾保障",
+        "轻症保障",
+        "中症保障",
+        "保费豁免"
+      ],
+      "advantages": [
+        "保障全面",
+        "理赔便捷"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "关注健康保障的人群"
+      ],
+      "claim_process": "确诊即赔",
+      "waiting_period_days": 90,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "CI-009",
+      "product_name": "福满人生重疾险",
+      "product_type": "critical_illness",
+      "provider": "友邦保险",
+      "coverage_scope": [
+        "重大疾病",
+        "轻症",
+        "中症",
+        "身故",
+        "豁免保费"
+      ],
+      "coverage_amount_min": 50000,
+      "coverage_amount_max": 1500000,
+      "exclusions": [
+        "既往症",
+        "等待期内确诊",
+        "故意自伤",
+        "酒驾",
+        "吸毒"
+      ],
+      "premium_min": 5000,
+      "premium_max": 30000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "终身",
+        "至70岁",
+        "至80岁"
+      ],
+      "age_min": 0,
+      "age_max": 60,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "重疾保障",
+        "轻症保障",
+        "中症保障",
+        "保费豁免"
+      ],
+      "advantages": [
+        "保障全面",
+        "理赔便捷"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "关注健康保障的人群"
+      ],
+      "claim_process": "确诊即赔",
+      "waiting_period_days": 90,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": true
+    },
+    {
+      "product_id": "CI-010",
+      "product_name": "康乐重疾保障计划",
+      "product_type": "critical_illness",
+      "provider": "华夏保险",
+      "coverage_scope": [
+        "重大疾病",
+        "轻症",
+        "中症",
+        "身故",
+        "豁免保费"
+      ],
+      "coverage_amount_min": 50000,
+      "coverage_amount_max": 1500000,
+      "exclusions": [
+        "既往症",
+        "等待期内确诊",
+        "故意自伤",
+        "酒驾",
+        "吸毒"
+      ],
+      "premium_min": 2500,
+      "premium_max": 10000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "终身",
+        "至70岁",
+        "至80岁"
+      ],
+      "age_min": 18,
+      "age_max": 55,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "重疾保障",
+        "轻症保障",
+        "中症保障",
+        "保费豁免"
+      ],
+      "advantages": [
+        "保障全面",
+        "理赔便捷"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "关注健康保障的人群"
+      ],
+      "claim_process": "确诊即赔",
+      "waiting_period_days": 90,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "CI-011",
+      "product_name": "少儿安康重疾险",
+      "product_type": "critical_illness",
+      "provider": "平安保险",
+      "coverage_scope": [
+        "重大疾病",
+        "轻症",
+        "中症",
+        "身故",
+        "豁免保费"
+      ],
+      "coverage_amount_min": 50000,
+      "coverage_amount_max": 1500000,
+      "exclusions": [
+        "既往症",
+        "等待期内确诊",
+        "故意自伤",
+        "酒驾",
+        "吸毒"
+      ],
+      "premium_min": 1500,
+      "premium_max": 6000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "终身",
+        "至70岁",
+        "至80岁"
+      ],
+      "age_min": 0,
+      "age_max": 17,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "重疾保障",
+        "轻症保障",
+        "中症保障",
+        "保费豁免"
+      ],
+      "advantages": [
+        "保障全面",
+        "理赔便捷"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "关注健康保障的人群"
+      ],
+      "claim_process": "确诊即赔",
+      "waiting_period_days": 90,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": true
+    },
+    {
+      "product_id": "CI-012",
+      "product_name": "女性关爱重疾险",
+      "product_type": "critical_illness",
+      "provider": "中国人寿",
+      "coverage_scope": [
+        "重大疾病",
+        "轻症",
+        "中症",
+        "身故",
+        "豁免保费"
+      ],
+      "coverage_amount_min": 50000,
+      "coverage_amount_max": 1500000,
+      "exclusions": [
+        "既往症",
+        "等待期内确诊",
+        "故意自伤",
+        "酒驾",
+        "吸毒"
+      ],
+      "premium_min": 2200,
+      "premium_max": 9000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "终身",
+        "至70岁",
+        "至80岁"
+      ],
+      "age_min": 18,
+      "age_max": 50,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "重疾保障",
+        "轻症保障",
+        "中症保障",
+        "保费豁免"
+      ],
+      "advantages": [
+        "保障全面",
+        "理赔便捷"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "关注健康保障的人群"
+      ],
+      "claim_process": "确诊即赔",
+      "waiting_period_days": 90,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "CI-013",
+      "product_name": "老年安康重疾险",
+      "product_type": "critical_illness",
+      "provider": "太平洋保险",
+      "coverage_scope": [
+        "重大疾病",
+        "轻症",
+        "中症",
+        "身故",
+        "豁免保费"
+      ],
+      "coverage_amount_min": 50000,
+      "coverage_amount_max": 1500000,
+      "exclusions": [
+        "既往症",
+        "等待期内确诊",
+        "故意自伤",
+        "酒驾",
+        "吸毒"
+      ],
+      "premium_min": 3000,
+      "premium_max": 10000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "终身",
+        "至70岁",
+        "至80岁"
+      ],
+      "age_min": 50,
+      "age_max": 75,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "重疾保障",
+        "轻症保障",
+        "中症保障",
+        "保费豁免"
+      ],
+      "advantages": [
+        "保障全面",
+        "理赔便捷"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "关注健康保障的人群"
+      ],
+      "claim_process": "确诊即赔",
+      "waiting_period_days": 90,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "MED-001",
+      "product_name": "百万医疗险",
+      "product_type": "medical",
+      "provider": "平安保险",
+      "coverage_scope": [
+        "住院医疗",
+        "门诊手术",
+        "特殊门诊",
+        "重疾医疗"
+      ],
+      "coverage_amount_min": 10000,
+      "coverage_amount_max": 6000000,
+      "exclusions": [
+        "既往症",
+        "整形美容",
+        "牙科治疗",
+        "体检"
+      ],
+      "premium_min": 200,
+      "premium_max": 2000,
+      "payment_period": [
+        "一年一交"
+      ],
+      "coverage_period": [
+        "一年",
+        "保证续保20年"
+      ],
+      "age_min": 0,
+      "age_max": 65,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "住院报销",
+        "门诊报销",
+        "重疾医疗"
+      ],
+      "advantages": [
+        "保额高",
+        "保障全面",
+        "价格低"
+      ],
+      "suitable_for": [
+        "所有人群",
+        "医保补充"
+      ],
+      "claim_process": "住院后提交材料报销",
+      "waiting_period_days": 30,
+      "deductible": 10000,
+      "is_available": true,
+      "is_featured": true
+    },
+    {
+      "product_id": "MED-002",
+      "product_name": "好医保长期医疗",
+      "product_type": "medical",
+      "provider": "中国人保",
+      "coverage_scope": [
+        "住院医疗",
+        "门诊手术",
+        "特殊门诊",
+        "重疾医疗"
+      ],
+      "coverage_amount_min": 10000,
+      "coverage_amount_max": 6000000,
+      "exclusions": [
+        "既往症",
+        "整形美容",
+        "牙科治疗",
+        "体检"
+      ],
+      "premium_min": 150,
+      "premium_max": 1500,
+      "payment_period": [
+        "一年一交"
+      ],
+      "coverage_period": [
+        "一年",
+        "保证续保20年"
+      ],
+      "age_min": 0,
+      "age_max": 60,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "住院报销",
+        "门诊报销",
+        "重疾医疗"
+      ],
+      "advantages": [
+        "保额高",
+        "保障全面",
+        "价格低"
+      ],
+      "suitable_for": [
+        "所有人群",
+        "医保补充"
+      ],
+      "claim_process": "住院后提交材料报销",
+      "waiting_period_days": 30,
+      "deductible": 10000,
+      "is_available": true,
+      "is_featured": true
+    },
+    {
+      "product_id": "MED-003",
+      "product_name": "尊享e生百万医疗",
+      "product_type": "medical",
+      "provider": "众安保险",
+      "coverage_scope": [
+        "住院医疗",
+        "门诊手术",
+        "特殊门诊",
+        "重疾医疗"
+      ],
+      "coverage_amount_min": 10000,
+      "coverage_amount_max": 6000000,
+      "exclusions": [
+        "既往症",
+        "整形美容",
+        "牙科治疗",
+        "体检"
+      ],
+      "premium_min": 136,
+      "premium_max": 1800,
+      "payment_period": [
+        "一年一交"
+      ],
+      "coverage_period": [
+        "一年",
+        "保证续保20年"
+      ],
+      "age_min": 0,
+      "age_max": 70,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "住院报销",
+        "门诊报销",
+        "重疾医疗"
+      ],
+      "advantages": [
+        "保额高",
+        "保障全面",
+        "价格低"
+      ],
+      "suitable_for": [
+        "所有人群",
+        "医保补充"
+      ],
+      "claim_process": "住院后提交材料报销",
+      "waiting_period_days": 30,
+      "deductible": 10000,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "MED-004",
+      "product_name": "普惠e保百万医疗",
+      "product_type": "medical",
+      "provider": "太平洋保险",
+      "coverage_scope": [
+        "住院医疗",
+        "门诊手术",
+        "特殊门诊",
+        "重疾医疗"
+      ],
+      "coverage_amount_min": 10000,
+      "coverage_amount_max": 6000000,
+      "exclusions": [
+        "既往症",
+        "整形美容",
+        "牙科治疗",
+        "体检"
+      ],
+      "premium_min": 100,
+      "premium_max": 1000,
+      "payment_period": [
+        "一年一交"
+      ],
+      "coverage_period": [
+        "一年",
+        "保证续保20年"
+      ],
+      "age_min": 0,
+      "age_max": 65,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "住院报销",
+        "门诊报销",
+        "重疾医疗"
+      ],
+      "advantages": [
+        "保额高",
+        "保障全面",
+        "价格低"
+      ],
+      "suitable_for": [
+        "所有人群",
+        "医保补充"
+      ],
+      "claim_process": "住院后提交材料报销",
+      "waiting_period_days": 30,
+      "deductible": 10000,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "MED-005",
+      "product_name": "少儿门诊医疗险",
+      "product_type": "medical",
+      "provider": "平安保险",
+      "coverage_scope": [
+        "住院医疗",
+        "门诊手术",
+        "特殊门诊",
+        "重疾医疗"
+      ],
+      "coverage_amount_min": 10000,
+      "coverage_amount_max": 6000000,
+      "exclusions": [
+        "既往症",
+        "整形美容",
+        "牙科治疗",
+        "体检"
+      ],
+      "premium_min": 500,
+      "premium_max": 1500,
+      "payment_period": [
+        "一年一交"
+      ],
+      "coverage_period": [
+        "一年",
+        "保证续保20年"
+      ],
+      "age_min": 0,
+      "age_max": 17,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "住院报销",
+        "门诊报销",
+        "重疾医疗"
+      ],
+      "advantages": [
+        "保额高",
+        "保障全面",
+        "价格低"
+      ],
+      "suitable_for": [
+        "所有人群",
+        "医保补充"
+      ],
+      "claim_process": "住院后提交材料报销",
+      "waiting_period_days": 30,
+      "deductible": 10000,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "MED-006",
+      "product_name": "中端医疗险",
+      "product_type": "medical",
+      "provider": "复星联合健康",
+      "coverage_scope": [
+        "住院医疗",
+        "门诊手术",
+        "特殊门诊",
+        "重疾医疗"
+      ],
+      "coverage_amount_min": 10000,
+      "coverage_amount_max": 6000000,
+      "exclusions": [
+        "既往症",
+        "整形美容",
+        "牙科治疗",
+        "体检"
+      ],
+      "premium_min": 3000,
+      "premium_max": 15000,
+      "payment_period": [
+        "一年一交"
+      ],
+      "coverage_period": [
+        "一年",
+        "保证续保20年"
+      ],
+      "age_min": 0,
+      "age_max": 64,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "住院报销",
+        "门诊报销",
+        "重疾医疗"
+      ],
+      "advantages": [
+        "保额高",
+        "保障全面",
+        "价格低"
+      ],
+      "suitable_for": [
+        "所有人群",
+        "医保补充"
+      ],
+      "claim_process": "住院后提交材料报销",
+      "waiting_period_days": 30,
+      "deductible": 10000,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "MED-007",
+      "product_name": "高端医疗险",
+      "product_type": "medical",
+      "provider": "招商信诺",
+      "coverage_scope": [
+        "住院医疗",
+        "门诊手术",
+        "特殊门诊",
+        "重疾医疗"
+      ],
+      "coverage_amount_min": 10000,
+      "coverage_amount_max": 6000000,
+      "exclusions": [
+        "既往症",
+        "整形美容",
+        "牙科治疗",
+        "体检"
+      ],
+      "premium_min": 10000,
+      "premium_max": 100000,
+      "payment_period": [
+        "一年一交"
+      ],
+      "coverage_period": [
+        "一年",
+        "保证续保20年"
+      ],
+      "age_min": 0,
+      "age_max": 70,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "住院报销",
+        "门诊报销",
+        "重疾医疗"
+      ],
+      "advantages": [
+        "保额高",
+        "保障全面",
+        "价格低"
+      ],
+      "suitable_for": [
+        "所有人群",
+        "医保补充"
+      ],
+      "claim_process": "住院后提交材料报销",
+      "waiting_period_days": 30,
+      "deductible": 10000,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "MED-008",
+      "product_name": "防癌医疗险",
+      "product_type": "medical",
+      "provider": "平安保险",
+      "coverage_scope": [
+        "住院医疗",
+        "门诊手术",
+        "特殊门诊",
+        "重疾医疗"
+      ],
+      "coverage_amount_min": 10000,
+      "coverage_amount_max": 6000000,
+      "exclusions": [
+        "既往症",
+        "整形美容",
+        "牙科治疗",
+        "体检"
+      ],
+      "premium_min": 100,
+      "premium_max": 1500,
+      "payment_period": [
+        "一年一交"
+      ],
+      "coverage_period": [
+        "一年",
+        "保证续保20年"
+      ],
+      "age_min": 0,
+      "age_max": 80,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "住院报销",
+        "门诊报销",
+        "重疾医疗"
+      ],
+      "advantages": [
+        "保额高",
+        "保障全面",
+        "价格低"
+      ],
+      "suitable_for": [
+        "所有人群",
+        "医保补充"
+      ],
+      "claim_process": "住院后提交材料报销",
+      "waiting_period_days": 30,
+      "deductible": 10000,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "MED-009",
+      "product_name": "惠民保",
+      "product_type": "medical",
+      "provider": "各地政府指导",
+      "coverage_scope": [
+        "住院医疗",
+        "门诊手术",
+        "特殊门诊",
+        "重疾医疗"
+      ],
+      "coverage_amount_min": 10000,
+      "coverage_amount_max": 6000000,
+      "exclusions": [
+        "既往症",
+        "整形美容",
+        "牙科治疗",
+        "体检"
+      ],
+      "premium_min": 69,
+      "premium_max": 200,
+      "payment_period": [
+        "一年一交"
+      ],
+      "coverage_period": [
+        "一年",
+        "保证续保20年"
+      ],
+      "age_min": 0,
+      "age_max": 120,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "住院报销",
+        "门诊报销",
+        "重疾医疗"
+      ],
+      "advantages": [
+        "保额高",
+        "保障全面",
+        "价格低"
+      ],
+      "suitable_for": [
+        "所有人群",
+        "医保补充"
+      ],
+      "claim_process": "住院后提交材料报销",
+      "waiting_period_days": 30,
+      "deductible": 10000,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "MED-010",
+      "product_name": "海外医疗险",
+      "product_type": "medical",
+      "provider": "友邦保险",
+      "coverage_scope": [
+        "住院医疗",
+        "门诊手术",
+        "特殊门诊",
+        "重疾医疗"
+      ],
+      "coverage_amount_min": 10000,
+      "coverage_amount_max": 6000000,
+      "exclusions": [
+        "既往症",
+        "整形美容",
+        "牙科治疗",
+        "体检"
+      ],
+      "premium_min": 5000,
+      "premium_max": 30000,
+      "payment_period": [
+        "一年一交"
+      ],
+      "coverage_period": [
+        "一年",
+        "保证续保20年"
+      ],
+      "age_min": 0,
+      "age_max": 70,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "住院报销",
+        "门诊报销",
+        "重疾医疗"
+      ],
+      "advantages": [
+        "保额高",
+        "保障全面",
+        "价格低"
+      ],
+      "suitable_for": [
+        "所有人群",
+        "医保补充"
+      ],
+      "claim_process": "住院后提交材料报销",
+      "waiting_period_days": 30,
+      "deductible": 10000,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "MED-011",
+      "product_name": "门诊医疗险",
+      "product_type": "medical",
+      "provider": "众安保险",
+      "coverage_scope": [
+        "住院医疗",
+        "门诊手术",
+        "特殊门诊",
+        "重疾医疗"
+      ],
+      "coverage_amount_min": 10000,
+      "coverage_amount_max": 6000000,
+      "exclusions": [
+        "既往症",
+        "整形美容",
+        "牙科治疗",
+        "体检"
+      ],
+      "premium_min": 300,
+      "premium_max": 1000,
+      "payment_period": [
+        "一年一交"
+      ],
+      "coverage_period": [
+        "一年",
+        "保证续保20年"
+      ],
+      "age_min": 18,
+      "age_max": 60,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "住院报销",
+        "门诊报销",
+        "重疾医疗"
+      ],
+      "advantages": [
+        "保额高",
+        "保障全面",
+        "价格低"
+      ],
+      "suitable_for": [
+        "所有人群",
+        "医保补充"
+      ],
+      "claim_process": "住院后提交材料报销",
+      "waiting_period_days": 30,
+      "deductible": 10000,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "MED-012",
+      "product_name": "孕产医疗险",
+      "product_type": "medical",
+      "provider": "复星联合健康",
+      "coverage_scope": [
+        "住院医疗",
+        "门诊手术",
+        "特殊门诊",
+        "重疾医疗"
+      ],
+      "coverage_amount_min": 10000,
+      "coverage_amount_max": 6000000,
+      "exclusions": [
+        "既往症",
+        "整形美容",
+        "牙科治疗",
+        "体检"
+      ],
+      "premium_min": 5000,
+      "premium_max": 20000,
+      "payment_period": [
+        "一年一交"
+      ],
+      "coverage_period": [
+        "一年",
+        "保证续保20年"
+      ],
+      "age_min": 20,
+      "age_max": 45,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "住院报销",
+        "门诊报销",
+        "重疾医疗"
+      ],
+      "advantages": [
+        "保额高",
+        "保障全面",
+        "价格低"
+      ],
+      "suitable_for": [
+        "所有人群",
+        "医保补充"
+      ],
+      "claim_process": "住院后提交材料报销",
+      "waiting_period_days": 30,
+      "deductible": 10000,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "ACC-001",
+      "product_name": "综合意外险",
+      "product_type": "accident",
+      "provider": "平安保险",
+      "coverage_scope": [
+        "意外身故",
+        "意外伤残",
+        "意外医疗",
+        "意外住院津贴"
+      ],
+      "coverage_amount_min": 10000,
+      "coverage_amount_max": 5000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "酒驾",
+        "高风险运动"
+      ],
+      "premium_min": 100,
+      "premium_max": 500,
+      "payment_period": [
+        "一年一交"
+      ],
+      "coverage_period": [
+        "一年"
+      ],
+      "age_min": 0,
+      "age_max": 65,
+      "occupation_restrictions": [
+        "高危职业除外"
+      ],
+      "health_requirements": [],
+      "region_restrictions": [],
+      "features": [
+        "意外身故伤残",
+        "意外医疗",
+        "住院津贴"
+      ],
+      "advantages": [
+        "保障全面",
+        "价格低",
+        "投保年龄宽"
+      ],
+      "suitable_for": [
+        "所有人群",
+        "基础意外保障"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 100,
+      "is_available": true,
+      "is_featured": true
+    },
+    {
+      "product_id": "ACC-002",
+      "product_name": "百万意外险",
+      "product_type": "accident",
+      "provider": "中国人寿",
+      "coverage_scope": [
+        "意外身故",
+        "意外伤残",
+        "意外医疗",
+        "意外住院津贴"
+      ],
+      "coverage_amount_min": 10000,
+      "coverage_amount_max": 5000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "酒驾",
+        "高风险运动"
+      ],
+      "premium_min": 200,
+      "premium_max": 1000,
+      "payment_period": [
+        "一年一交"
+      ],
+      "coverage_period": [
+        "一年"
+      ],
+      "age_min": 18,
+      "age_max": 60,
+      "occupation_restrictions": [
+        "高危职业除外"
+      ],
+      "health_requirements": [],
+      "region_restrictions": [],
+      "features": [
+        "意外身故伤残",
+        "意外医疗",
+        "住院津贴"
+      ],
+      "advantages": [
+        "保障全面",
+        "价格低",
+        "投保年龄宽"
+      ],
+      "suitable_for": [
+        "所有人群",
+        "基础意外保障"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 100,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "ACC-003",
+      "product_name": "少儿意外险",
+      "product_type": "accident",
+      "provider": "平安保险",
+      "coverage_scope": [
+        "意外身故",
+        "意外伤残",
+        "意外医疗",
+        "意外住院津贴"
+      ],
+      "coverage_amount_min": 10000,
+      "coverage_amount_max": 5000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "酒驾",
+        "高风险运动"
+      ],
+      "premium_min": 60,
+      "premium_max": 200,
+      "payment_period": [
+        "一年一交"
+      ],
+      "coverage_period": [
+        "一年"
+      ],
+      "age_min": 0,
+      "age_max": 17,
+      "occupation_restrictions": [
+        "高危职业除外"
+      ],
+      "health_requirements": [],
+      "region_restrictions": [],
+      "features": [
+        "意外身故伤残",
+        "意外医疗",
+        "住院津贴"
+      ],
+      "advantages": [
+        "保障全面",
+        "价格低",
+        "投保年龄宽"
+      ],
+      "suitable_for": [
+        "所有人群",
+        "基础意外保障"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 100,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "ACC-004",
+      "product_name": "老年意外险",
+      "product_type": "accident",
+      "provider": "太平洋保险",
+      "coverage_scope": [
+        "意外身故",
+        "意外伤残",
+        "意外医疗",
+        "意外住院津贴"
+      ],
+      "coverage_amount_min": 10000,
+      "coverage_amount_max": 5000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "酒驾",
+        "高风险运动"
+      ],
+      "premium_min": 100,
+      "premium_max": 500,
+      "payment_period": [
+        "一年一交"
+      ],
+      "coverage_period": [
+        "一年"
+      ],
+      "age_min": 50,
+      "age_max": 85,
+      "occupation_restrictions": [
+        "高危职业除外"
+      ],
+      "health_requirements": [],
+      "region_restrictions": [],
+      "features": [
+        "意外身故伤残",
+        "意外医疗",
+        "住院津贴"
+      ],
+      "advantages": [
+        "保障全面",
+        "价格低",
+        "投保年龄宽"
+      ],
+      "suitable_for": [
+        "所有人群",
+        "基础意外保障"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 100,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "ACC-005",
+      "product_name": "交通意外险",
+      "product_type": "accident",
+      "provider": "中国人寿",
+      "coverage_scope": [
+        "意外身故",
+        "意外伤残",
+        "意外医疗",
+        "意外住院津贴"
+      ],
+      "coverage_amount_min": 10000,
+      "coverage_amount_max": 5000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "酒驾",
+        "高风险运动"
+      ],
+      "premium_min": 50,
+      "premium_max": 300,
+      "payment_period": [
+        "一年一交"
+      ],
+      "coverage_period": [
+        "一年"
+      ],
+      "age_min": 0,
+      "age_max": 70,
+      "occupation_restrictions": [
+        "高危职业除外"
+      ],
+      "health_requirements": [],
+      "region_restrictions": [],
+      "features": [
+        "意外身故伤残",
+        "意外医疗",
+        "住院津贴"
+      ],
+      "advantages": [
+        "保障全面",
+        "价格低",
+        "投保年龄宽"
+      ],
+      "suitable_for": [
+        "所有人群",
+        "基础意外保障"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 100,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "ACC-006",
+      "product_name": "航空意外险",
+      "product_type": "accident",
+      "provider": "平安保险",
+      "coverage_scope": [
+        "意外身故",
+        "意外伤残",
+        "意外医疗",
+        "意外住院津贴"
+      ],
+      "coverage_amount_min": 10000,
+      "coverage_amount_max": 5000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "酒驾",
+        "高风险运动"
+      ],
+      "premium_min": 20,
+      "premium_max": 100,
+      "payment_period": [
+        "一年一交"
+      ],
+      "coverage_period": [
+        "一年"
+      ],
+      "age_min": 0,
+      "age_max": 80,
+      "occupation_restrictions": [
+        "高危职业除外"
+      ],
+      "health_requirements": [],
+      "region_restrictions": [],
+      "features": [
+        "意外身故伤残",
+        "意外医疗",
+        "住院津贴"
+      ],
+      "advantages": [
+        "保障全面",
+        "价格低",
+        "投保年龄宽"
+      ],
+      "suitable_for": [
+        "所有人群",
+        "基础意外保障"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 100,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "ACC-007",
+      "product_name": "旅游意外险",
+      "product_type": "accident",
+      "provider": "太平洋保险",
+      "coverage_scope": [
+        "意外身故",
+        "意外伤残",
+        "意外医疗",
+        "意外住院津贴"
+      ],
+      "coverage_amount_min": 10000,
+      "coverage_amount_max": 5000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "酒驾",
+        "高风险运动"
+      ],
+      "premium_min": 30,
+      "premium_max": 200,
+      "payment_period": [
+        "一年一交"
+      ],
+      "coverage_period": [
+        "一年"
+      ],
+      "age_min": 0,
+      "age_max": 80,
+      "occupation_restrictions": [
+        "高危职业除外"
+      ],
+      "health_requirements": [],
+      "region_restrictions": [],
+      "features": [
+        "意外身故伤残",
+        "意外医疗",
+        "住院津贴"
+      ],
+      "advantages": [
+        "保障全面",
+        "价格低",
+        "投保年龄宽"
+      ],
+      "suitable_for": [
+        "所有人群",
+        "基础意外保障"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 100,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "ACC-008",
+      "product_name": "高危职业意外险",
+      "product_type": "accident",
+      "provider": "泰康保险",
+      "coverage_scope": [
+        "意外身故",
+        "意外伤残",
+        "意外医疗",
+        "意外住院津贴"
+      ],
+      "coverage_amount_min": 10000,
+      "coverage_amount_max": 5000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "酒驾",
+        "高风险运动"
+      ],
+      "premium_min": 300,
+      "premium_max": 1500,
+      "payment_period": [
+        "一年一交"
+      ],
+      "coverage_period": [
+        "一年"
+      ],
+      "age_min": 18,
+      "age_max": 60,
+      "occupation_restrictions": [
+        "高危职业除外"
+      ],
+      "health_requirements": [],
+      "region_restrictions": [],
+      "features": [
+        "意外身故伤残",
+        "意外医疗",
+        "住院津贴"
+      ],
+      "advantages": [
+        "保障全面",
+        "价格低",
+        "投保年龄宽"
+      ],
+      "suitable_for": [
+        "所有人群",
+        "基础意外保障"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 100,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "ACC-009",
+      "product_name": "运动意外险",
+      "product_type": "accident",
+      "provider": "众安保险",
+      "coverage_scope": [
+        "意外身故",
+        "意外伤残",
+        "意外医疗",
+        "意外住院津贴"
+      ],
+      "coverage_amount_min": 10000,
+      "coverage_amount_max": 5000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "酒驾",
+        "高风险运动"
+      ],
+      "premium_min": 50,
+      "premium_max": 300,
+      "payment_period": [
+        "一年一交"
+      ],
+      "coverage_period": [
+        "一年"
+      ],
+      "age_min": 0,
+      "age_max": 65,
+      "occupation_restrictions": [
+        "高危职业除外"
+      ],
+      "health_requirements": [],
+      "region_restrictions": [],
+      "features": [
+        "意外身故伤残",
+        "意外医疗",
+        "住院津贴"
+      ],
+      "advantages": [
+        "保障全面",
+        "价格低",
+        "投保年龄宽"
+      ],
+      "suitable_for": [
+        "所有人群",
+        "基础意外保障"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 100,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "ACC-010",
+      "product_name": "猝死保障险",
+      "product_type": "accident",
+      "provider": "平安保险",
+      "coverage_scope": [
+        "意外身故",
+        "意外伤残",
+        "意外医疗",
+        "意外住院津贴"
+      ],
+      "coverage_amount_min": 10000,
+      "coverage_amount_max": 5000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "酒驾",
+        "高风险运动"
+      ],
+      "premium_min": 100,
+      "premium_max": 500,
+      "payment_period": [
+        "一年一交"
+      ],
+      "coverage_period": [
+        "一年"
+      ],
+      "age_min": 18,
+      "age_max": 60,
+      "occupation_restrictions": [
+        "高危职业除外"
+      ],
+      "health_requirements": [],
+      "region_restrictions": [],
+      "features": [
+        "意外身故伤残",
+        "意外医疗",
+        "住院津贴"
+      ],
+      "advantages": [
+        "保障全面",
+        "价格低",
+        "投保年龄宽"
+      ],
+      "suitable_for": [
+        "所有人群",
+        "基础意外保障"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 100,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "ACC-011",
+      "product_name": "学生意外险",
+      "product_type": "accident",
+      "provider": "中国人寿",
+      "coverage_scope": [
+        "意外身故",
+        "意外伤残",
+        "意外医疗",
+        "意外住院津贴"
+      ],
+      "coverage_amount_min": 10000,
+      "coverage_amount_max": 5000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "酒驾",
+        "高风险运动"
+      ],
+      "premium_min": 50,
+      "premium_max": 150,
+      "payment_period": [
+        "一年一交"
+      ],
+      "coverage_period": [
+        "一年"
+      ],
+      "age_min": 3,
+      "age_max": 25,
+      "occupation_restrictions": [
+        "高危职业除外"
+      ],
+      "health_requirements": [],
+      "region_restrictions": [],
+      "features": [
+        "意外身故伤残",
+        "意外医疗",
+        "住院津贴"
+      ],
+      "advantages": [
+        "保障全面",
+        "价格低",
+        "投保年龄宽"
+      ],
+      "suitable_for": [
+        "所有人群",
+        "基础意外保障"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 100,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "ACC-012",
+      "product_name": "驾乘意外险",
+      "product_type": "accident",
+      "provider": "太平洋保险",
+      "coverage_scope": [
+        "意外身故",
+        "意外伤残",
+        "意外医疗",
+        "意外住院津贴"
+      ],
+      "coverage_amount_min": 10000,
+      "coverage_amount_max": 5000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "酒驾",
+        "高风险运动"
+      ],
+      "premium_min": 100,
+      "premium_max": 500,
+      "payment_period": [
+        "一年一交"
+      ],
+      "coverage_period": [
+        "一年"
+      ],
+      "age_min": 18,
+      "age_max": 70,
+      "occupation_restrictions": [
+        "高危职业除外"
+      ],
+      "health_requirements": [],
+      "region_restrictions": [],
+      "features": [
+        "意外身故伤残",
+        "意外医疗",
+        "住院津贴"
+      ],
+      "advantages": [
+        "保障全面",
+        "价格低",
+        "投保年龄宽"
+      ],
+      "suitable_for": [
+        "所有人群",
+        "基础意外保障"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 100,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "LIFE-001",
+      "product_name": "定期寿险",
+      "product_type": "life",
+      "provider": "平安保险",
+      "coverage_scope": [
+        "身故",
+        "全残",
+        "生存金",
+        "祝寿金"
+      ],
+      "coverage_amount_min": 100000,
+      "coverage_amount_max": 10000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "两年内自杀"
+      ],
+      "premium_min": 500,
+      "premium_max": 5000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "定期",
+        "终身"
+      ],
+      "age_min": 18,
+      "age_max": 60,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "身故保障",
+        "全残保障",
+        "现金价值"
+      ],
+      "advantages": [
+        "保障稳定",
+        "资产传承"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "有家庭责任的人群"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": true
+    },
+    {
+      "product_id": "LIFE-002",
+      "product_name": "终身寿险",
+      "product_type": "life",
+      "provider": "中国人寿",
+      "coverage_scope": [
+        "身故",
+        "全残",
+        "生存金",
+        "祝寿金"
+      ],
+      "coverage_amount_min": 100000,
+      "coverage_amount_max": 10000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "两年内自杀"
+      ],
+      "premium_min": 3000,
+      "premium_max": 30000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "定期",
+        "终身"
+      ],
+      "age_min": 0,
+      "age_max": 70,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "身故保障",
+        "全残保障",
+        "现金价值"
+      ],
+      "advantages": [
+        "保障稳定",
+        "资产传承"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "有家庭责任的人群"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": true
+    },
+    {
+      "product_id": "LIFE-003",
+      "product_name": "增额终身寿险",
+      "product_type": "life",
+      "provider": "太平洋保险",
+      "coverage_scope": [
+        "身故",
+        "全残",
+        "生存金",
+        "祝寿金"
+      ],
+      "coverage_amount_min": 100000,
+      "coverage_amount_max": 10000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "两年内自杀"
+      ],
+      "premium_min": 5000,
+      "premium_max": 100000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "定期",
+        "终身"
+      ],
+      "age_min": 0,
+      "age_max": 70,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "身故保障",
+        "全残保障",
+        "现金价值"
+      ],
+      "advantages": [
+        "保障稳定",
+        "资产传承"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "有家庭责任的人群"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": true
+    },
+    {
+      "product_id": "LIFE-004",
+      "product_name": "定期寿险（高保额）",
+      "product_type": "life",
+      "provider": "华贵人寿",
+      "coverage_scope": [
+        "身故",
+        "全残",
+        "生存金",
+        "祝寿金"
+      ],
+      "coverage_amount_min": 100000,
+      "coverage_amount_max": 10000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "两年内自杀"
+      ],
+      "premium_min": 300,
+      "premium_max": 3000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "定期",
+        "终身"
+      ],
+      "age_min": 18,
+      "age_max": 60,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "身故保障",
+        "全残保障",
+        "现金价值"
+      ],
+      "advantages": [
+        "保障稳定",
+        "资产传承"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "有家庭责任的人群"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "LIFE-005",
+      "product_name": "减额定期寿险",
+      "product_type": "life",
+      "provider": "阳光保险",
+      "coverage_scope": [
+        "身故",
+        "全残",
+        "生存金",
+        "祝寿金"
+      ],
+      "coverage_amount_min": 100000,
+      "coverage_amount_max": 10000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "两年内自杀"
+      ],
+      "premium_min": 200,
+      "premium_max": 2000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "定期",
+        "终身"
+      ],
+      "age_min": 18,
+      "age_max": 55,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "身故保障",
+        "全残保障",
+        "现金价值"
+      ],
+      "advantages": [
+        "保障稳定",
+        "资产传承"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "有家庭责任的人群"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "LIFE-006",
+      "product_name": "两全保险",
+      "product_type": "life",
+      "provider": "泰康保险",
+      "coverage_scope": [
+        "身故",
+        "全残",
+        "生存金",
+        "祝寿金"
+      ],
+      "coverage_amount_min": 100000,
+      "coverage_amount_max": 10000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "两年内自杀"
+      ],
+      "premium_min": 2000,
+      "premium_max": 20000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "定期",
+        "终身"
+      ],
+      "age_min": 0,
+      "age_max": 60,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "身故保障",
+        "全残保障",
+        "现金价值"
+      ],
+      "advantages": [
+        "保障稳定",
+        "资产传承"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "有家庭责任的人群"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "LIFE-007",
+      "product_name": "年金保险",
+      "product_type": "life",
+      "provider": "中国人寿",
+      "coverage_scope": [
+        "身故",
+        "全残",
+        "生存金",
+        "祝寿金"
+      ],
+      "coverage_amount_min": 100000,
+      "coverage_amount_max": 10000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "两年内自杀"
+      ],
+      "premium_min": 5000,
+      "premium_max": 100000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "定期",
+        "终身"
+      ],
+      "age_min": 0,
+      "age_max": 65,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "身故保障",
+        "全残保障",
+        "现金价值"
+      ],
+      "advantages": [
+        "保障稳定",
+        "资产传承"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "有家庭责任的人群"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "LIFE-008",
+      "product_name": "养老年金保险",
+      "product_type": "life",
+      "provider": "平安保险",
+      "coverage_scope": [
+        "身故",
+        "全残",
+        "生存金",
+        "祝寿金"
+      ],
+      "coverage_amount_min": 100000,
+      "coverage_amount_max": 10000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "两年内自杀"
+      ],
+      "premium_min": 3000,
+      "premium_max": 50000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "定期",
+        "终身"
+      ],
+      "age_min": 18,
+      "age_max": 60,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "身故保障",
+        "全残保障",
+        "现金价值"
+      ],
+      "advantages": [
+        "保障稳定",
+        "资产传承"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "有家庭责任的人群"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "LIFE-009",
+      "product_name": "教育年金保险",
+      "product_type": "life",
+      "provider": "太平洋保险",
+      "coverage_scope": [
+        "身故",
+        "全残",
+        "生存金",
+        "祝寿金"
+      ],
+      "coverage_amount_min": 100000,
+      "coverage_amount_max": 10000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "两年内自杀"
+      ],
+      "premium_min": 2000,
+      "premium_max": 30000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "定期",
+        "终身"
+      ],
+      "age_min": 0,
+      "age_max": 12,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "身故保障",
+        "全残保障",
+        "现金价值"
+      ],
+      "advantages": [
+        "保障稳定",
+        "资产传承"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "有家庭责任的人群"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "LIFE-010",
+      "product_name": "万能型终身寿险",
+      "product_type": "life",
+      "provider": "友邦保险",
+      "coverage_scope": [
+        "身故",
+        "全残",
+        "生存金",
+        "祝寿金"
+      ],
+      "coverage_amount_min": 100000,
+      "coverage_amount_max": 10000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "两年内自杀"
+      ],
+      "premium_min": 10000,
+      "premium_max": 200000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "定期",
+        "终身"
+      ],
+      "age_min": 0,
+      "age_max": 70,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "身故保障",
+        "全残保障",
+        "现金价值"
+      ],
+      "advantages": [
+        "保障稳定",
+        "资产传承"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "有家庭责任的人群"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "LIFE-011",
+      "product_name": "分红型终身寿险",
+      "product_type": "life",
+      "provider": "新华保险",
+      "coverage_scope": [
+        "身故",
+        "全残",
+        "生存金",
+        "祝寿金"
+      ],
+      "coverage_amount_min": 100000,
+      "coverage_amount_max": 10000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "两年内自杀"
+      ],
+      "premium_min": 5000,
+      "premium_max": 50000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "定期",
+        "终身"
+      ],
+      "age_min": 0,
+      "age_max": 65,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "身故保障",
+        "全残保障",
+        "现金价值"
+      ],
+      "advantages": [
+        "保障稳定",
+        "资产传承"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "有家庭责任的人群"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "LIFE-012",
+      "product_name": "投资连结保险",
+      "product_type": "life",
+      "provider": "平安保险",
+      "coverage_scope": [
+        "身故",
+        "全残",
+        "生存金",
+        "祝寿金"
+      ],
+      "coverage_amount_min": 100000,
+      "coverage_amount_max": 10000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "两年内自杀"
+      ],
+      "premium_min": 10000,
+      "premium_max": 500000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "定期",
+        "终身"
+      ],
+      "age_min": 18,
+      "age_max": 60,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "身故保障",
+        "全残保障",
+        "现金价值"
+      ],
+      "advantages": [
+        "保障稳定",
+        "资产传承"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "有家庭责任的人群"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": false
+    },
+    {
+      "product_id": "LIFE-013",
+      "product_name": "家庭收入保障险",
+      "product_type": "life",
+      "provider": "中国人寿",
+      "coverage_scope": [
+        "身故",
+        "全残",
+        "生存金",
+        "祝寿金"
+      ],
+      "coverage_amount_min": 100000,
+      "coverage_amount_max": 10000000,
+      "exclusions": [
+        "故意行为",
+        "犯罪行为",
+        "两年内自杀"
+      ],
+      "premium_min": 1000,
+      "premium_max": 10000,
+      "payment_period": [
+        "趸交",
+        "5年",
+        "10年",
+        "20年",
+        "30年"
+      ],
+      "coverage_period": [
+        "定期",
+        "终身"
+      ],
+      "age_min": 20,
+      "age_max": 50,
+      "occupation_restrictions": [],
+      "health_requirements": [
+        "健康告知"
+      ],
+      "region_restrictions": [],
+      "features": [
+        "身故保障",
+        "全残保障",
+        "现金价值"
+      ],
+      "advantages": [
+        "保障稳定",
+        "资产传承"
+      ],
+      "suitable_for": [
+        "家庭经济支柱",
+        "有家庭责任的人群"
+      ],
+      "claim_process": "提交材料理赔",
+      "waiting_period_days": 0,
+      "deductible": 0,
+      "is_available": true,
+      "is_featured": false
+    }
+  ]
+}
