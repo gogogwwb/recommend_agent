@@ -4,9 +4,10 @@ version = "0.1.0"
 description = "保险智能推荐Agent系统 - 基于LangGraph多Agent架构的智能对话推荐系统"
 requires-python = ">=3.11"
 dependencies = [
-    "langgraph>=0.2.0",
+    "langgraph>=1.0.0",
     "langchain>=0.3.0",
     "langchain-openai>=0.2.0",
+    "langgraph-checkpoint-postgres>=2.0.0",
     "fastapi>=0.115.0",
     "uvicorn[standard]>=0.32.0",
     "pydantic>=2.9.0",
@@ -25,7 +26,6 @@ dependencies = [
     "sqlalchemy>=2.0.36",
     "numpy>=2.2.0",
     "sentence-transformers>=3.3.0",
-    "langgraph-checkpoint-postgres>=3.0.5",
     "psycopg[binary]>=3.3.3",
 ]
 

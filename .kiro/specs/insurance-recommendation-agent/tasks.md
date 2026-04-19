@@ -118,7 +118,7 @@
   - 如有问题，询问用户
 
 - [ ] 6. 子图架构实现（LangGraph 1.0.0）
-  - [ ] 6.1 实现Profile Subgraph
+  - [~] 6.1 实现Profile Subgraph
     - 创建agents/profile_subgraph.py
     - 实现extract_slots_node（从对话中提取槽位）
     - 实现validate_profile_node（验证画像完整性）
@@ -126,7 +126,7 @@
     - 构建ProfileState子图（StateGraph + START + END）
     - _Requirements: 1.1, 1.2, 1.4, 4.1, 5.1_
   
-  - [ ] 6.2 实现Recommendation Subgraph
+  - [-] 6.2 实现Recommendation Subgraph
     - 创建agents/recommendation_subgraph.py
     - 实现load_profile_node（从Store API加载用户画像）
     - 实现match_products_node（产品匹配逻辑）
