@@ -282,3 +282,47 @@ def reset_checkpointer() -> None:
         if _checkpointer_manager is not None:
             _checkpointer_manager.reset()
         _checkpointer_manager = None
+
+
+def get_db_session():
+    """
+    Get a database session for direct database operations
+    
+    Creates a SQLAlchemy session for operations that need direct database access
+    (e.g., logging compliance checks, storing recommendations).
+    
+    Returns:
+        SQLAlchemy Session instance
+        
+    Usage:
+        session = get_db_session()
+        try:
+            # Use session
+            session.add(some_object)
+            session.commit()
+        finally:
+            session.close()
+            
+    Note:
+        The caller is responsible for closing the session.
+    """
+    from sqlalchemy import create_engine
+    from sqlalchemy.orm import sessionmaker
+    
+    settings = get_settings()
+    
+    # Create engine
+    engine = create_engine(
+        settings.database_url,
+        echo=settings.DEBUG,
+        pool_pre_ping=True,
+        pool_size=5,
+        max_overflow=10,
+    )
+    
+    # Create session factory
+    SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+    
+    # Return session
+    return SessionLocal()
+
