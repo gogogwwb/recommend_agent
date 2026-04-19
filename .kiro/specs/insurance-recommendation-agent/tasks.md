@@ -43,7 +43,7 @@
     - 编写种子数据脚本（测试用保险产品数据）
     - _Requirements: 6.1_
   
-  - [ ] 2.3 初始化FAISS向量索引
+  - [x] 2.3 初始化FAISS向量索引
     - 创建FAISS IndexFlatIP索引（dimension=768）
     - 实现索引持久化和加载逻辑
     - 创建product_id到vector_id的映射表
