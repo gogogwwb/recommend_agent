@@ -81,7 +81,7 @@
     - _Requirements: 6.1_
 
 - [ ] 4. PostgresSaver和Store API集成（LangGraph 1.0.0）
-  - [ ] 4.1 实现PostgresSaver配置
+  - [x] 4.1 实现PostgresSaver配置
     - 创建utils/checkpointer.py
     - 使用PostgresSaver初始化Checkpointer（from_conn_string）
     - 运行checkpointer.setup()创建必要的表结构
