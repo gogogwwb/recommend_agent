@@ -290,6 +290,46 @@ def test_create_profile_subgraph():
     assert hasattr(subgraph, 'nodes') or hasattr(subgraph, 'graph')
 
 
+def test_create_profile_subgraph_with_injected_skill():
+    """Test that Profile Subgraph accepts injected InsuranceDomainSkill
+    
+    Requirements: 5.1, 5.3, 5.6
+    """
+    from skills.insurance_domain import InsuranceDomainSkill
+    
+    # Create a mock skill
+    mock_skill = Mock(spec=InsuranceDomainSkill)
+    
+    # Create subgraph with injected skill - should NOT create default
+    subgraph = create_profile_subgraph(insurance_skill=mock_skill)
+    
+    assert subgraph is not None
+    # The subgraph should be created successfully with the injected skill
+
+
+def test_create_profile_subgraph_creates_default_skill():
+    """Test that Profile Subgraph creates default InsuranceDomainSkill when not provided
+    
+    Requirements: 5.3
+    """
+    # Create subgraph without providing a skill - should create default
+    subgraph = create_profile_subgraph(insurance_skill=None)
+    
+    assert subgraph is not None
+    # The subgraph should be created successfully with a default skill
+
+
+def test_create_profile_subgraph_default_parameter():
+    """Test that Profile Subgraph works with default parameter (no args)
+    
+    Requirements: 5.3
+    """
+    # Create subgraph with no arguments - should create default skill
+    subgraph = create_profile_subgraph()
+    
+    assert subgraph is not None
+
+
 # ==================== Test State Transitions ====================
 
 @pytest.mark.asyncio

@@ -66,6 +66,8 @@ class ProfileState(TypedDict, total=False):
     
     # ==================== 意图识别 ====================
     current_intent: Optional[str]  # 当前用户意图
+    question_type: Optional[str]  # 问题类型（terminology, comparison, claim, general, non_insurance）
+    extracted_entities: Dict[str, Any]  # 从问题中提取的实体（如术语、产品类型）
     
     # ==================== 控制流 ====================
     profile_complete: bool  # 用户画像是否收集完整
@@ -326,6 +328,8 @@ def create_initial_profile_state(session_id: str, user_id: str) -> ProfileState:
         risk_score=None,
         existing_coverage=[],
         current_intent=None,
+        question_type=None,
+        extracted_entities={},
         profile_complete=False,
         error=None
     )

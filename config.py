@@ -51,6 +51,12 @@ class Settings(BaseSettings):
     MAX_CONVERSATION_TURNS: int = 15
     HOT_DATA_RETENTION_TURNS: int = 5
     
+    # Short-term memory settings
+    MAX_TOKENS_BEFORE_SUMMARY: int = 5000  # Token threshold for summarization
+    MESSAGES_TO_KEEP: int = 20  # Number of recent messages to preserve (10 turns = 20 messages)
+    SUMMARIZATION_MODEL: str = "gpt-4o-mini"  # Model for conversation summarization
+    MAX_TOKENS_FOR_SUMMARIZATION: int = 1000  # Max tokens for summary output
+    
     # Performance settings
     MAX_CONCURRENT_SESSIONS: int = 100
     TOKEN_BUDGET_PER_SESSION: int = 6000

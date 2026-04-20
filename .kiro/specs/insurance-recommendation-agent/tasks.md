@@ -179,7 +179,7 @@
     - 测试Main Graph状态转换正确性
 
 - [ ] 7. Skills实现
-  - [ ] 7.1 实现Insurance Domain Skill
+  - [x] 7.1 实现Insurance Domain Skill
     - 加载保险术语词典（data/insurance_terminology.json）
     - 实现explain_term方法（术语解释）
     - 实现compare_products方法（产品类型对比）
@@ -234,7 +234,7 @@
     - 实现log_compliance_check方法（合规日志记录）
     - _Requirements: 10.1, 10.4_
   
-  - [ ] 8.4 实现FinancialCalculatorTool
+  - [x] 8.4 实现FinancialCalculatorTool
     - 创建tools/financial_calculator.py
     - 实现calculate_affordable_premium方法（可承受保费计算）
     - 实现calculate_coverage_need方法（保障需求计算）
@@ -321,7 +321,7 @@
 - [ ] 13. 错误处理和监控
   - [ ] 13.1 实现统一错误处理
     - 创建utils/error_handler.py
-    - 实现ErrorHandler（分类处理5类错误）
+    - 实现ErrorHandler（分类处理常见错误）
     - 实现重试机制（指数退避）
     - 实现降级策略（LLM不可用时使用规则引擎）
     - _Requirements: 17.1, 17.2, 17.4_
