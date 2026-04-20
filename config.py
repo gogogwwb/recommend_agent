@@ -34,6 +34,17 @@ class Settings(BaseSettings):
     LLM_TEMPERATURE: float = 0.7
     LLM_MAX_TOKENS: int = 2000
     
+    # LangSmith settings for monitoring and debugging (deprecated, use Langfuse)
+    LANGSMITH_TRACING: bool = False  # Enable tracing (set to True in production)
+    LANGSMITH_API_KEY: Optional[str] = None
+    LANGSMITH_PROJECT: str = "insurance-recommendation-agent"
+    LANGSMITH_WORKSPACE_ID: Optional[str] = None  # For multi-workspace accounts
+    
+    # Langfuse settings for LLM observability (recommended)
+    LANGFUSE_SECRET_KEY: Optional[str] = None
+    LANGFUSE_PUBLIC_KEY: Optional[str] = None
+    LANGFUSE_HOST: str = "https://cloud.langfuse.com"  # EU region, use https://us.cloud.langfuse.com for US
+    
     # Embedding settings
     EMBEDDING_MODEL: str = "text-embedding-ada-002"
     

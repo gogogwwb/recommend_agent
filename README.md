@@ -8,7 +8,9 @@
 - **子图架构**：LangGraph 1.0.0子图Schema实现Agent隔离，类型安全
 - **Store API集成**：PostgresStore管理用户画像，跨会话持久化
 - **PostgresSaver**：会话状态持久化和恢复，支持时间旅行调试
+- **短期记忆**：LangChain 1.x SummarizationMiddleware自动对话压缩
 - **Skills + Tools集成**：4个Skills + 4个内部工具模块提供可扩展能力
+- **监控调试**：LangSmith集成，支持追踪、调试、评估
 - **会话管理**：支持多会话隔离、切换、后台运行
 - **实时流式响应**：FastAPI + SSE提供流式对话体验
 - **性能优化**：Token压缩、KV Cache、推荐结果缓存

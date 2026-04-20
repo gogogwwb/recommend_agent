@@ -10,6 +10,7 @@ Key Features:
 - State transformation between MainState and subgraph-specific states
 - Sequential subgraph invocation (Profile → Recommendation → Compliance)
 - PostgresSaver checkpointer integration for session persistence
+- LangSmith integration for monitoring and debugging
 - Error handling and recovery
 
 Architecture:
@@ -42,6 +43,12 @@ from agents.profile_subgraph import create_profile_subgraph
 from agents.recommendation_subgraph import create_recommendation_subgraph
 from agents.compliance_subgraph import create_compliance_subgraph
 from utils.checkpointer import get_checkpointer, CheckpointerError
+from utils.langfuse_config import (
+    configure_langfuse,
+    get_trace_config as get_langfuse_trace_config,
+    is_langfuse_enabled,
+    flush_langfuse,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -692,9 +699,16 @@ async def run_main_graph(
     existing_slots: Optional[Dict[str, Any]] = None,
     checkpointer: Optional[PostgresSaver] = None,
     thread_id: Optional[str] = None,
+    environment: str = "development",
+    tags: Optional[List[str]] = None,
 ) -> MainState:
     """
-    Convenience function to run the Main Graph
+    Convenience function to run the Main Graph with Langfuse tracing.
+    
+    This function:
+    1. Configures Langfuse tracing if enabled
+    2. Creates trace config with metadata
+    3. Runs the Main Graph with tracing
     
     Args:
         session_id: Session identifier
@@ -704,10 +718,16 @@ async def run_main_graph(
         existing_slots: Optional existing slots
         checkpointer: Optional PostgresSaver for session persistence
         thread_id: Optional thread ID for checkpointer (defaults to session_id)
+        environment: Environment name (development, staging, production)
+        tags: Optional additional tags for tracing
         
     Returns:
         Final MainState after graph execution
     """
+    # Configure Langfuse if not already configured
+    if is_langfuse_enabled():
+        logger.debug(f"Langfuse tracing enabled for session {session_id}")
+    
     # Create initial state
     initial_state = create_initial_main_state(
         session_id=session_id,
@@ -725,16 +745,23 @@ async def run_main_graph(
     # Create graph
     graph = create_main_graph(checkpointer=checkpointer)
     
-    # Prepare config for checkpointer
-    config = {}
+    # Prepare config for checkpointer and Langfuse tracing
+    config = get_langfuse_trace_config(
+        user_id=user_id,
+        session_id=session_id,
+        environment=environment,
+        tags=tags or ["insurance-agent"],
+        trace_name="main-graph-execution",
+    )
+    
     if checkpointer and thread_id:
         config["configurable"] = {"thread_id": thread_id or session_id}
     
-    # Run graph
-    if config:
-        result = await graph.ainvoke(initial_state, config)
-    else:
-        result = await graph.ainvoke(initial_state)
+    # Run graph with tracing
+    result = await graph.ainvoke(initial_state, config)
+    
+    # Flush Langfuse events to ensure traces are sent
+    flush_langfuse()
     
     return result
 
@@ -744,9 +771,10 @@ async def process_user_message(
     user_id: str,
     user_message: str,
     checkpointer: Optional[PostgresSaver] = None,
+    environment: str = "development",
 ) -> MainState:
     """
-    Process a single user message through the Main Graph
+    Process a single user message through the Main Graph with LangSmith tracing.
     
     This is the primary entry point for handling user messages.
     
@@ -755,6 +783,7 @@ async def process_user_message(
         user_id: User identifier
         user_message: User's message text
         checkpointer: Optional PostgresSaver for session persistence
+        environment: Environment name (development, staging, production)
         
     Returns:
         Final MainState after processing
@@ -764,13 +793,15 @@ async def process_user_message(
     # Create message
     messages = [HumanMessage(content=user_message)]
     
-    # Run graph
+    # Run graph with tracing
     return await run_main_graph(
         session_id=session_id,
         user_id=user_id,
         messages=messages,
         checkpointer=checkpointer,
         thread_id=session_id,
+        environment=environment,
+        tags=["user-message"],
     )
 
 
